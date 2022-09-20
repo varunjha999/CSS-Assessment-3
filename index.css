@@ -1,0 +1,200 @@
+body{
+    background-image: url(./grey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1{
+    border: 8px solid rgb(245, 61, 61);
+    background-color: white;
+    width: 450px;
+    height: 150px;
+    text-align: center;
+    padding-top: -30px;
+    box-sizing: border-box;
+    /* font-size: 30px; */
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(63, 7, 63);
+    border-radius: 20px;
+    margin-left: 350px;
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 0px purple;
+    text-shadow: 1px 1px 3px rgb(116, 15, 116);
+    display: inline-block;
+}
+.table{
+    border: 8px solid rgb(245, 61, 61);
+    background-color: rgb(38, 237, 38);
+    height: 100px;
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    column-gap: 60px;
+    /* margin-top: 0px; */
+    margin-left: 350px;
+    position: fixed;
+    bottom: 20px;
+    z-index: 1;
+}
+.box2{
+    display: inline-block;
+    border: 8px solid rgb(245, 61, 61);
+    background-color: white;
+    width: 250px;
+    height: 270px;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+
+    /* font-style: italic; */
+    font-weight: bold;
+    color: rgb(64, 4, 64);
+    border-radius: 20px;
+    /* margin-left: 470px; */
+    box-shadow: 10px 10px 0px purple;
+    text-shadow: 1px 1px 2px rgb(63, 4, 63);
+    margin-right: 850px;
+     /* margin-left: 5px;  */
+    /* position: relative; */
+}
+img{
+    /* display: inline-block; */
+    border: 8px solid rgb(245, 61, 61);
+    background-color: white;
+    /* margin-bottom: 20px;
+    margin-top: 20px; */
+    border-radius: 20px;
+    width: 250px;
+    height: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 10px 10px 0px purple;
+    float: right;
+    position: relative;
+    top: -290px;
+    margin-right: 40px;
+    /* position: relative; */
+    border-left: 1px solid red;
+    border-bottom: 1px solid black;
+}
+.box3{
+    border: 8px solid rgb(245, 61, 61);
+    background-color: white;
+    width: 250px;
+    height: 270px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-size: 23px;
+    /* font-style: italic; */
+    font-weight: bold;
+    color: rgb(59, 3, 59);
+    border-radius: 20px;
+    /* margin-left: 470px; */
+    box-shadow: 10px 10px 0px purple;
+    text-shadow: 1px 1px 2px rgb(96, 8, 96);
+    margin-left: 35px;
+}
+.box4{
+    border: 8px solid rgb(245, 61, 61);
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    /* font-size: 30px; */
+    /* font-style: italic; */
+    font-weight: bold;
+    color: rgb(73, 2, 73);
+    border-radius: 20px;
+    /* margin-left: 470px; */
+    box-shadow: 10px 10px 0px purple;
+    text-shadow: 1px 1px 2px rgb(96, 8, 96);
+    float: right;
+    position: relative;
+    top: -350px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+#btn{
+    width: 100px;
+    height: 50px;
+    background-color: tomato;
+    /* color: white; */
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+
+} 
+.total{
+    border: 11px solid green;
+    border-style: solid;
+    box-sizing: border-box;
+    margin-bottom: -90px;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+   /* margin-left: 33px; */
+    position: absolute;
+    /* z-index: -1; */
+}
+.flex-items{
+    /* flex-wrap: wrap;
+    flex-flow: row; */
+    border: 1px solid purple;
+    background-color: rgb(209, 209, 95);
+    color: black;
+    margin: 5px;
+    margin-bottom: 5px;
+    height: 300px;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;    
+    font-style: italic;
+    /* z-index: -1; */
+}
+.flex-items1{
+    border: 1px solid purple;
+    background-color: rgb(209, 209, 95);
+    color: black;
+    margin: 5px;
+    margin-bottom: 5px;
+    height: 300px;
+    width: 813px;
+    padding-left: -10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;    
+    font-style: italic;
+    position: relative;
+    /* z-index: -1; */
+}
+.parent{
+    border: 8px solid purple;
+    background-color: darkgreen;
+    text-align: center;
+    font-style: italic;
+    width: 840px;
+    height: 750px;
+    /* box-sizing: border-box; */
+    /* margin-left: -50px; */
+/* padding: -200px; */
+margin-top: 130px;
+margin-left: 200px;
+}
+
+
+
+
+
